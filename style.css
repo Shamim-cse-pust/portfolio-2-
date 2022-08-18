@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    margin-bottom: 30px;
+}
+section{
+    height: 700px;
+    
+    margin: 10px;
+}
+/*   section 1   */
+
+#ss{
+    margin-top: -40px;
+}
+#name{
+    color: blue;
+}
+#developer{
+    margin-top: 30px;
+}
+.top{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.top img{
+    width: 100%;
+    border: 10px solid crimson;
+    border-radius: 15%;
+
+}
+
+#top-section{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.button-top{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: crimson;
+    border-radius: 5px;
+    color: wheat;
+}
+.button-top:hover{
+    background-color: black;
+    border: 2px solid crimson;
+    border-radius: 10px;
+}
+
+/*   section 2   */
+.second-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.second-div img{
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    border: 10px solid crimson;
+    border-radius: 50%;
+}
+h3{
+    color: green;
+}
+#second-section{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* third section */
+
+.third-div{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+    height: 40%;
+    border-radius: 10px;
+    border-left: 5px solid blueviolet;
+}
+#heading{
+    margin-left: 5%;
+    padding: 2%;
+    margin-bottom: -10px;
+}
+#third-section h4{
+    color: chocolate;
+}
+
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
